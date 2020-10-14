@@ -22,7 +22,7 @@ body {
     background-color: #D6E9FE;
 }
 
-.item im {
+.item img {
     display: block;
 }
 
@@ -36,4 +36,14 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+.absolute {
+    position: relative;
+}
+
+.item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
